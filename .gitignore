@@ -13,3 +13,9 @@ web-build/
 .DS_Store
 
 yarn.lock
+app.json
+babel.config.js
+assets.json
+*.png
+*.jpg
+

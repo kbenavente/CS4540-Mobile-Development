@@ -1,0 +1,1 @@
+export const toggleFavorite = 'TOGGLE_FAVORITE';

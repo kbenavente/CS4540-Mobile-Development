@@ -13,7 +13,7 @@ const moviesReducer = (state = initialState, action) => {
         case toggleFavorite:
             console.warn(action);
 
-            const existingIndex = state.movies.findIndex(movie => movie.imdbID === action.imdbID);
+            const existingIndex = state.favoriteMovies.findIndex(movie => movie.imdbID === action.imdbID);
 
             if (existingIndex >= 0) { // Is inside of Favorites
                 console.warn('HERE1')
